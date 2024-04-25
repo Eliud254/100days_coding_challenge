@@ -1,0 +1,36 @@
+/* Basic styles for task list */
+#taskManager {
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+#taskList {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Styles for task name and edit input */
+.taskName {
+  margin-right: 10px;
+}
+
+.editInput {
+  display: none;
+  width: 150px;
+}
+
+/* Button styles */
+button {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+/* Completed task style */
+.completed .taskName {
+  text-decoration: line-through;
+  color: #888;
+}
